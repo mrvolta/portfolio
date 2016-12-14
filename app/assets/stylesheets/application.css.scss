@@ -1,0 +1,163 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+html{
+	margin:0px;
+	padding:0px;
+	
+}
+
+body {
+	font-family: Orbitron;
+	margin:0px;
+	padding:0px;
+	background-color:#f9f9f9;
+}
+
+.row{
+	padding:0px;
+	margin:0px;
+}
+.m {
+
+	width:100%;
+	margin: 0px auto;
+	position: fixed;
+	background: rgba(255, 255, 255, 0.9)!important;
+	z-index:1;
+}
+a{
+	color:black;
+	cursor:pointer;
+}
+a:hover {
+	text-decoration:none;
+}
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    /*background-color: #000000;*/
+    color:#FF0000;
+    font-weight: bold;
+}
+.active{
+	/*background-color: #000000;*/
+	border-left:1px solid #FF0000;
+	border-right:1px solid #FF0000;
+	border-bottom:1px solid #FF0000;
+	color:#FF0000;
+	font-weight: bold;
+}
+.trans {
+	background: rgba(0, 0, 0, 0.3)!important;
+	margin:0px;
+    padding:0px;
+}
+.trans2 {
+	background: rgba(230, 230, 230, 0.95)!important;
+	margin:0px;
+    padding:0px;
+}
+
+.panel-transparent {
+    background: none;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(122, 130, 136, 0.2)!important;
+    color:#402400;
+
+}
+
+.panel-transparent .panel-body{
+    background: rgba(46, 51, 56, 0.2)!important;
+
+}
+
+.dots {
+    /*position: absolute;*/
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-image: url('/assets/bg_mask.png');
+    z-index: 1;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 0em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.butt{
+	border:2px solid #FF0000;
+	background-color:#FF0000;
+	color:white;
+}
+
+.butt:hover{
+	border:2px solid #a80000;
+	background-color:#a80000;
+	color:#f3f3f3;
+	cursor:pointer;
+}
+
+.buttw{
+	border:2px solid #FFFFFF;
+	background-color:#FF0000;
+	color:#FFFFFF;
+}
+
+.buttw:hover{
+	border:2px solid #FFFFFF;
+	background-color:#FFFFFF;
+	color:#FF0000;
+	cursor:pointer;
+}
+
+.circle .image-wrap {
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+}

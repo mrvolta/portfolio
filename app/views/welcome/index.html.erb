@@ -1,0 +1,135 @@
+<!-- <div class="panel panel-warning panel-transparent">
+  <div class="panel-heading">Clients</div>
+  	<div class="panel-body">
+
+	<table class="table" style="color:#003FB2;">
+	<tr>
+	<td>#</td>
+	<td>ID</td>
+	<td>Name</td>
+	<td></td>
+	</tr>
+	<tr>
+	<td><%= link_to welcome_index_path do %> 1 <%end%></td>
+	<td>102356</td>
+	<td>Sherif Rashwan</td>
+	<td><%= link_to 'Delete', welcome_index_path, class: 'btn btn-danger' %></td>
+	</tr>
+	</table>
+	</div>
+</div> -->
+  <!--style="background-image: url('/assets/back.jpg');" -->
+
+  <div style="border:1px solid #C8C4B7;background-image: url('/assets/19.jpg');background-position: top; background-repeat: no-repeat;background-size: cover; height:800px;">
+<div class="dots" style="height:800px;">
+    <div class="container" style="position:relative;top:80px;">
+    <div class="row">
+    	<p style="font-family:Courier;font-size:4em;">DIGITAL FABRICATION</p>
+    </div>
+        <div class="row">
+        <div class="col-md-6">
+    	<p style="font-family:Courier;font-size:1em;">
+	Serial.begin(9600);<br />
+  	Serial.println("VC0706 Camera test");<br />
+  
+ 	// see if the card is present and can be initialized:<br />
+  	if (!SD.begin(chipSelect)) {<br />
+    Serial.println("Card failed, or not present");<br />
+    // don't do anything more:<br />
+    return;<br />
+  	}  <br />
+  
+  	// Try to locate the camera<br />
+  	if (cam.begin()) {<br />
+    Serial.println("Camera Found:");<br />
+  	} else {<br />
+    Serial.println("No camera found?");<br />
+    return;<br />
+  	}<br />
+  	// Print out the camera version information (optional)<br />
+  	char *reply = cam.getVersion();<br />
+  	if (reply == 0) {<br />
+    Serial.print("Failed to get version");<br />
+  	} else {<br />
+    Serial.println("-----------------");<br />
+    Serial.print(reply);<br />
+    Serial.println("-----------------");<br />
+  	}<br />
+    	</p>
+    	</div>
+	<div class="col-md-6">
+		<div style="background: rgba(230, 230, 230, 0.3)!important;height:500px;">
+
+		</div>
+	</div>
+    </div>
+    <div class="row">
+    	<img src="/assets/maker-logo.png" />
+    </div>
+
+    </div>
+<!--       <div class="row" style="height:500px;">
+        <div class="col-md-4"></div>
+  <div class="col-md-5">
+    <img style="position:absolute;top:60px;" src="/assets/transistor.png" />
+    <img style="position:absolute;top:160px;left:100px;" src="/assets/diode.png" />
+
+  </div>
+  <div class="col-md-3">
+  <%= link_to 'Register', new_user_path, style: "float:left;margin-right:10px;" %>
+  <a style="float:left;"> Login </a> 
+  </div>
+      
+      </div> -->
+
+        
+
+</div>
+</div>
+<div class="container" style="position:relative;top:-40px;height:300px;"> 
+<div class="row" style="background-color:#FF0000;text-align: center;">
+<blockquote>The true purpose of education is to make minds not careers. - William Deresiewicz</blockquote>
+</div>
+<div class="row" style="margin-top:10px;">
+	<div class="col-md-6">
+	<p style="font-family:Courier;font-size:4em;">SHERIF RASHWAN</p>
+
+	<p style="font-family:Courier;font-size:4em;">
+	<b>HOW ABOUT A</b></p><p style="font-size:3.5em;color:#FF0000;"> SNEAK PEEK
+	</p>
+		<div class="butt" style="width:200px;height:50px;margin-bottom:40px;">
+			<p style="width:50px;margin:13px auto;"><b>More..</b></p>
+		</div>
+		<div style="float:left;width:200px;">
+		<span class="glyphicon glyphicon-link" style="font-size: 50px;"></span><p>Web Developer</p>
+		</div>
+		<div style="float:left;width:200px;">
+		<span class="glyphicon glyphicon-hdd" style="font-size: 50px;"></span><p>Electronics Developer</p>
+		</div>
+		<p style="clear:both;"></p>
+	</div>
+	<div class="col-md-6">
+		<div class="circle">
+			<span class="image-wrap " style="position:relative; display:inline-block; background:url(/assets/16-2.jpg) no-repeat top left; width: 500px; height: 500px;">
+				<img class="img-responsive" src="/assets/16-2.jpg" style="opacity: 0;">
+			</span>
+		</div>
+	</div>
+</div>
+<!-- <p style="font-size:3em;color:black;font-family: Orbitron;text-align: left;">Portfolio Tour</p>
+<p style="text-align: left;"> <%= link_to 'Start', welcome_index_path, class: 'btn btn-primary' %></p> -->
+</div>
+
+<div style="background-color:black;">
+<div class="container" style="height:200px;"> 
+<div class="col-md-6">
+
+</div>
+<div class="col-md-6">
+</div>
+</div>
+</div>
+
+
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <title>Sherif Rashwan</title>
+  </head>
+  <body>
+    <!-- #FFB619 -->
+
+  <div id="main-container" class="container m">
+  <div class="dots">
+        <div class="row" style="height:70px;">
+         <div class="col-md-2">
+         <a href="/welcome/index"><img style="margin:1px auto;margin-left:30px;" src="/assets/logo-sr.png" /></a>
+         </div>
+                
+  <div class="col-md-5">
+    <div class="input-group" style="position:relative;top:10px;">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">
+        <span class="glyphicon glyphicon-search"></span>
+        </button>
+      </span>
+      <input type="text" class="form-control" placeholder="Search for...">
+    </div>
+
+  </div>
+        <div class="col-md-5">
+          <ul>
+            <li><a class="active">
+            <span class="glyphicon glyphicon-home" style="margin-right:5px;"></span>
+            Home</a></li>
+            <li><a>Gallery</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Contacts</a></li>
+          </ul>
+
+        </div>
+        </div>
+<div class="row">
+<div class="col-md-4" style="position: absolute;left:45px;">
+  <!-- <p>Electronics Developer</p> 
+  <img style="position:absolute;top:60px;" src="/assets/code.png" />-->
+</div>
+<div class="col-md-3"></div>
+<div class="col-md-5">
+  <!-- <img style="position:absolute;top:60px;left:750px;" src="/assets/risha.png" /> -->
+</div>
+</div>
+</div>
+</div>
+  <div class="row">
+              <%= yield %>
+  </div>
+
+  <div style="background-color:red;height:150px;padding-top:20px;">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8" style="text-align: center;">
+  <p style="font-family:Orbitron;font-size:2em;font-weight: bold;color:#f3f3f3;">Need help to build something cool</p>
+      <div class="buttw" style="width:200px;height:50px;margin:0 auto;">
+      <p style="width:80px;margin:13px auto;"><b>Hire Me !</b></p>
+    </div>
+  </div>
+  <div class="col-md-2"></div>
+  </div>
+  </div>
+  </div>
+  <div class="row trans2" style="height:400px;">
+    <img style="float:left;" src="/assets/Risha3.png" />
+    <img style="float:left;" src="/assets/fablab.png" />
+    <img style="float:left;" src="/assets/logoice.png" />
+    <div style="clear:both;"></div>
+    <hr />
+    <p><b>FOLLOW ME</b></p>
+  </div>
+
+  </body>
+</html>
